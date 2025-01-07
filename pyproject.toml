@@ -42,7 +42,14 @@ dependencies = [
     "sympy",
     "scipy",
     "pyside6",
+    "rerun-sdk>=0.16.0",
+    "trimesh",
+    "pillow",
+    "lxml",
+    "pyyaml",
+    "urdfdom-py @ git+https://github.com/ros/urdf_parser_py.git@ros2"
 ]
+
 requires-python = ">=3.8"
 
 [project.urls]
